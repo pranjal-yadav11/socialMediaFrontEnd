@@ -5,7 +5,7 @@ export const SocketContext = React.createContext(null);
 
 export const useSocket = () => useContext(SocketContext);
 
-export const socket = io("https://socailappbackend-production.up.railway.app/"); // Replace with your server URL
+export const socket = io("https://socialmediabackend-production-917f.up.railway.app/"); // Replace with your server URL
 console.log(socket);
 
 
